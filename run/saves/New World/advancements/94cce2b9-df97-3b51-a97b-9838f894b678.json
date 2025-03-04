@@ -1,0 +1,21 @@
+{
+  "minecraft:recipes/decorations/orange_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2025-03-04 13:16:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-03-04 13:15:11 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_plains": "2025-03-04 13:15:12 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 4189
+}

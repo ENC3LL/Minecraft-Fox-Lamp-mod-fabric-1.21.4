@@ -1,0 +1,10 @@
+/give @p fabric-docs-reference:fox_lamp
+/give @p foxlamp:foxlamp
+/gamemode survival
+/gamemode creative
+/time set night
+/reload
+/time set night
+/give @p foxlamp:foxlamp
+/time set day
+/time set night

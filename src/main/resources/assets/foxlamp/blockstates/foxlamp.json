@@ -1,0 +1,26 @@
+{
+  "variants": {
+    "facing=east": { "model": "foxlamp:block/foxlamp", "y": 180 },
+    "facing=west": { "model": "foxlamp:block/foxlamp" },
+    "facing=south" : { "model": "foxlamp:block/foxlamp", "y": 270 },
+    "facing=north": { "model": "foxlamp:block/foxlamp", "y": 90 }
+  },
+  "multipart": [
+    {
+      "apply": {
+        "model": "foxlamp:block/custom_model"
+      },
+      "when": {
+        "activated": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "foxlamp:block/custom_modeloff"
+      },
+      "when": {
+        "activated": "false"
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#S#",
+    "#L#",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:orange_stained_glass_pane",
+    "S": "minecraft:sweet_berries",
+    "L": "minecraft:lantern"
+  },
+  "result": {
+    "id": "foxlamp:foxlamp",
+    "count": 1
+  }
+}

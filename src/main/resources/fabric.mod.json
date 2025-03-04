@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "fox_lamp",
+  "version": "${version}",
+  "name": "Fox Lamp",
+  "description": "Now you can create a fox lamp",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/fox_lamp/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.client.foxlampClient"
+    ],
+    "main": [
+      "org.FabricDocsReferenceBlocks"
+    ]
+  },
+  "mixins": [
+    "fox_lamp.mixins.json",
+    {
+      "config": "fox_lamp.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
